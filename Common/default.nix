@@ -11,6 +11,7 @@
     ];
   environment.systemPackages = [
     pkgs.git
+    pkgs.gh
   ];
   hyprland.enable = lib.mkDefault true;
   vim.enable = lib.mkDefault true;
